@@ -1,0 +1,170 @@
+body {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  color: #443e44;
+}
+
+h1 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#description {
+  font-size: 120%;
+  padding-bottom: 15px;
+}
+
+#inside {
+  background-color: rgba(226, 192, 225, 0.5);
+  max-width: 900px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+th {
+  width: 300px;
+}
+
+#tlabel {
+  text-align: right;
+  font-weight: normal;
+  width: 400px;
+}
+
+#tlabels {
+  text-align: right;
+  font-weight: normal;
+  width: 400px;
+  vertical-align: top;
+}
+
+#tlabeltext {
+  text-align: right;
+  font-weight: normal;
+  width: 400px;
+  vertical-align: top;
+  padding-top: 10px;
+}
+
+#tcheck {
+  font-weight: normal;
+  position: relative;
+  left: -35px;
+  padding-top: 10px;
+}
+
+#reason {
+    width: 280px;
+    text-align: left;
+}
+
+.list {
+  list-style: none;
+  display: inline;
+}
+
+#radio, #checkbox {
+    position: relative;
+    left: -43px;
+    margin-left: 0px;
+    padding-bottom: 10px;
+    width: 200px;
+  }
+
+input {
+      vertical-align: middle;
+      height: 20px;
+      width: 280px;
+      padding: 5px;
+      margin: 10px;
+      border: 1px solid #c0c0c0;
+      border-radius: 4px;
+    }
+
+textarea {
+  vertical-align: middle;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+}
+
+#dropdown {
+      height: 35px;
+      padding: 5px;
+      margin: 10px;
+      margin-top: 15px;
+      border: 1px solid #c0c0c0;
+      border-radius: 4px;
+      width: 280px;
+}
+
+li {
+  float:left;
+}
+
+button {
+  height: 40px;
+  width: 96px;
+  border-radius: 5px;
+  background-color: #702169;
+  color: white;
+  font-size: 100%;
+  border: 0px solid;
+  margin: 25px;
+  font-weight: lighter;
+}
+
+label input {
+  margin-right: -100px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 80%;
+}
+
+@media only screen and (max-width: 690px) {
+  tr {
+    display: flex;
+    flex-direction: column;
+  }
+
+ th {
+  align-self: flex-start;
+  padding-left: 20%;
+  }
+
+#reason, input, #dropdown, {
+  width: 350px;
+  }
+
+#tlabel, #tlabeltext, #tlabels {
+  text-align: left;
+  padding-left: 20%;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+  #inside {
+    width: 490px;
+
+  }
+  #title {
+    position: relative;
+    left: 10%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #title {
+    position: relative;
+    left: 20%;
+  }
+}
